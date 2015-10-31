@@ -1,0 +1,77 @@
+[
+    {
+        "infinitive": "fly",
+        "simplePast": "flew",
+        "pastParticiple": "flown"
+    },
+    {
+        "infinitive": "hold",
+        "simplePast": "held",
+        "pastParticiple": "held"
+    },
+    {
+        "infinitive": "steal",
+        "simplePast": "stole",
+        "pastParticiple": "stolen"
+    },
+    {
+        "infinitive": "sink",
+        "simplePast": "sank",
+        "pastParticiple": "sunk"
+    },
+    {
+        "infinitive": "hide",
+        "simplePast": "hid",
+        "pastParticiple": "hidden"
+    },
+    {
+        "infinitive": "rise",
+        "simplePast": "rose",
+        "pastParticiple": "risen"
+    },
+    {
+        "infinitive": "spring",
+        "simplePast": "sprang",
+        "pastParticiple": "sprung"
+    },
+    {
+        "infinitive": "let",
+        "simplePast": "let",
+        "pastParticiple": "let"
+    },
+    {
+        "infinitive": "send",
+        "simplePast": "sent",
+        "pastParticiple": "sent"
+    },
+    {
+        "infinitive": "tear",
+        "simplePast": "tore",
+        "pastParticiple": "torn"
+    },
+    {
+        "infinitive": "grow",
+        "simplePast": "grew",
+        "pastParticiple": "grown"
+    },
+    {
+        "infinitive": "sweep",
+        "simplePast": "swept",
+        "pastParticiple": "swept"
+    },
+    {
+        "infinitive": "lend",
+        "simplePast": "lent",
+        "pastParticiple": "lent"
+    },
+    {
+        "infinitive": "become",
+        "simplePast": "became",
+        "pastParticiple": "become"
+    },
+    {
+        "infinitive": "swear",
+        "simplePast": "swore",
+        "pastParticiple": "sworn"
+    }
+]

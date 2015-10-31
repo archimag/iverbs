@@ -1,0 +1,10 @@
+
+li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.exercise-answer {
+    display: inline-block;
+    vertical-align: middle;
+}

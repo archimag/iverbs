@@ -1,0 +1,77 @@
+[
+    {
+        "infinitive": "go",
+        "simplePast": "went",
+        "pastParticiple": "gone"
+    },
+    {
+        "infinitive": "say",
+        "simplePast": "said",
+        "pastParticiple": "said"
+    },
+    {
+        "infinitive": "do",
+        "simplePast": "did",
+        "pastParticiple": "done"
+    },
+    {
+        "infinitive": "come",
+        "simplePast": "came",
+        "pastParticiple": "come"
+    },
+    {
+        "infinitive": "have",
+        "simplePast": "had",
+        "pastParticiple": "had"
+    },
+    {
+        "infinitive": "stand",
+        "simplePast": "stood",
+        "pastParticiple": "stood"
+    },
+    {
+        "infinitive": "make",
+        "simplePast": "made",
+        "pastParticiple": "made"
+    },
+    {
+        "infinitive": "buy",
+        "simplePast": "bought",
+        "pastParticiple": "bought"
+    },
+    {
+        "infinitive": "sit",
+        "simplePast": "sit",
+        "pastParticiple": "sit"
+    },
+    {
+        "infinitive": "swim",
+        "simplePast": "swam",
+        "pastParticiple": "swum"
+    },
+    {
+        "infinitive": "speak",
+        "simplePast": "spoke",
+        "pastParticiple": "spoken"
+    },
+    {
+        "infinitive": "see",
+        "simplePast": "saw",
+        "pastParticiple": "seen"
+    },
+    {
+        "infinitive": "write",
+        "simplePast": "wrote",
+        "pastParticiple": "written"
+    },
+    {
+        "infinitive": "sing",
+        "simplePast": "sang",
+        "pastParticiple": "sung"
+    },
+    {
+        "infinitive": "run",
+        "simplePast": "ran",
+        "pastParticiple": "run"
+    }
+]

@@ -1,0 +1,77 @@
+[
+    {
+        "infinitive": "catch",
+        "simplePast": "caught",
+        "pastParticiple": "caught"
+    },
+    {
+        "infinitive": "tell",
+        "simplePast": "told",
+        "pastParticiple": "told"
+    },
+    {
+        "infinitive": "understand",
+        "simplePast": "understood",
+        "pastParticiple": "understood"
+    },
+    {
+        "infinitive": "cut",
+        "simplePast": "cut",
+        "pastParticiple": "cut"
+    },
+    {
+        "infinitive": "ring",
+        "simplePast": "rang",
+        "pastParticiple": "rung"
+    },
+    {
+        "infinitive": "eat",
+        "simplePast": "ate",
+        "pastParticiple": "eaten"
+    },
+    {
+        "infinitive": "wear",
+        "simplePast": "wore",
+        "pastParticiple": "worn"
+    },
+    {
+        "infinitive": "put",
+        "simplePast": "put",
+        "pastParticiple": "put"
+    },
+    {
+        "infinitive": "sell",
+        "simplePast": "sold",
+        "pastParticiple": "sold"
+    },
+    {
+        "infinitive": "think",
+        "simplePast": "thought",
+        "pastParticiple": "thought"
+    },
+    {
+        "infinitive": "drive",
+        "simplePast": "drove",
+        "pastParticiple": "driven"
+    },
+    {
+        "infinitive": "win",
+        "simplePast": "won",
+        "pastParticiple": "won"
+    },
+    {
+        "infinitive": "drink",
+        "simplePast": "drank",
+        "pastParticiple": "drunk"
+    },
+    {
+        "infinitive": "break",
+        "simplePast": "broke",
+        "pastParticiple": "broken"
+    },
+    {
+        "infinitive": "fight",
+        "simplePast": "fought",
+        "pastParticiple": "fought"
+    }
+]

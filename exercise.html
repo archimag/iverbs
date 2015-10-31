@@ -1,0 +1,58 @@
+<div >
+    <h3>Irregular verbs - Excersice {{exerciseId}}</h3>
+
+    <div ng-show="mode=='input'" >
+        <form ng-submit="check()">
+
+            <ol>
+                <li ng-repeat="verb in verbs">
+                    {{verb.infinitive}}
+                    →
+                    <input ng-model="verb.simplePast" type="text" size="7" autocapitalize="off">
+                    →
+                    <input ng-model="verb.pastParticiple" type="text" size="7" autocapitalize="off">
+                    
+                </li>
+            </ol>
+            
+            <input class="btn-primary" type="submit" value="Check">
+        </form>
+    </div>
+
+    <div ng-show="mode=='showResults'">
+        <form ng-submit="repeat()">
+            <ol>
+                <li ng-repeat="verb in verbs">
+                    <div class="exercise-answer">
+                        <div>
+                            <span class="text-{{verb.status ? 'success' : 'danger'}}">{{verb.infinitive}}</span>
+                            →
+                            <span class="text-{{verb.simplePastStatus ? 'success' : 'danger'}}">{{verb.simplePast}}</span>
+                            →
+                            <span class="text-{{verb.pastParticipleStatus ? 'success' : 'danger'}}">{{verb.pastParticiple}}</span>
+                        </div>
+
+                        <span>
+                            <strong>Correct is</strong>:
+                            <span class="text-success">{{verb.infinitive}}</span>
+                            →
+                            <span class="text-success">{{verb.correct.simplePast}}</span>
+                            →
+                            <span class="text-success">{{verb.correct.pastParticiple}}</span>
+                        </span>
+                    </div>
+                </li>
+            </ol>
+
+            <input class="btn-primary" type="submit" value="Repeat exercise">
+        </form>
+    </div>
+
+    <nav>
+        <ul class="pagination">
+            <li ng-repeat="test in allTest" class="{{test == exerciseId ? 'active' : ''}}">
+                <a ng-href="#/{{test}}">{{test}}</a>
+            </li>
+        </ul>
+    </nav>
+</div>
