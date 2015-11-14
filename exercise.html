@@ -6,12 +6,38 @@
 
             <ol>
                 <li ng-repeat="verb in verbs">
-                    {{verb.infinitive}}
-                    →
-                    <input ng-model="verb.simplePast" type="text" size="7" autocapitalize="off">
-                    →
-                    <input ng-model="verb.pastParticiple" type="text" size="7" autocapitalize="off">
+                    <span ng-switch="verb.mode">
+                        <span ng-switch-when="infinitive">
+                            {{verb.infinitive}}
+                            →
+                            <input ng-model="verb.simplePast" type="text" size="7" autocapitalize="off">
+                            →
+                            <input ng-model="verb.pastParticiple" type="text" size="7" autocapitalize="off">
+                        </span>
+                        
+                        <span ng-switch-when="simplePast">
+                            <input ng-model="verb.infinitive" type="text" size="7" autocapitalize="off">
+                            →
+                            {{verb.simplePast}}
+                            →
+                            <input ng-model="verb.pastParticiple" type="text" size="7" autocapitalize="off">
+                        </span>
+
+                        <span ng-switch-when="pastParticiple">
+                            <input ng-model="verb.infinitive" type="text" size="7" autocapitalize="off">
+                            →
+                            <input ng-model="verb.simplePast" type="text" size="7" autocapitalize="off">
+                            →
+                            {{verb.pastParticiple}}
+                        </span>
+                    </span>
                     
+                    <!-- {{verb.infinitive}} -->
+                    <!-- → -->
+                    <!-- <input ng-model="verb.simplePast" type="text" size="7" autocapitalize="off"> -->
+                    <!-- → -->
+                    <!-- <input ng-model="verb.pastParticiple" type="text" size="7" autocapitalize="off"> -->
+
                 </li>
             </ol>
             
@@ -25,16 +51,16 @@
                 <li ng-repeat="verb in verbs">
                     <div class="exercise-answer">
                         <div>
-                            <span class="text-{{verb.status ? 'success' : 'danger'}}">{{verb.infinitive}}</span>
+                            <span class="text-{{verb.infinitiveStatus ? 'success' : 'danger'}}">{{verb.infinitive}}</span>
                             →
                             <span class="text-{{verb.simplePastStatus ? 'success' : 'danger'}}">{{verb.simplePast}}</span>
                             →
                             <span class="text-{{verb.pastParticipleStatus ? 'success' : 'danger'}}">{{verb.pastParticiple}}</span>
                         </div>
 
-                        <span>
+                        <span ng-hide="verb.status">
                             <strong>Correct is</strong>:
-                            <span class="text-success">{{verb.infinitive}}</span>
+                            <span class="text-success">{{verb.correct.infinitive}}</span>
                             →
                             <span class="text-success">{{verb.correct.simplePast}}</span>
                             →
